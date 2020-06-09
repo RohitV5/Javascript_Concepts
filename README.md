@@ -15,6 +15,41 @@ Note: Global means not inside a
 # Creation and Hoisting 
 
 its not actually moving the code to top. before running your code the javascript engine assigns memory for the variables and functions. So they exist in memory.
-But ofr variables only declaration is done but assignment is done exactly where its written. 
+But  only declaration is done but assignment is done exactly where its written. 
 
 All variables in javascript are set to undefined by the engine during execution context creation.
+
+
+# undefined is a keyword in javascript
+
+
+# Javascript runs in 2 Phases 
+1. Creation (Hoisting of functions and variables) 
+2. Execution
+
+
+# Javascript is single threaded synchronous 
+1. one command at a time
+
+# Invocation => Running a function
+ Any time you execute a function a new execution context is created and put on the execution stack and 'this' variable is created for that function
+
+
+# Scope Chaining
+1. every context has reference to its outer environment as many levels up there isd so here a and b have reference to global application context or lexical environment
+
+
+2. a child function has reference to its parent and to its parent parents and so on till top outer level so it will keep going up looking for any variable
+
+3. Scope is where a variable is available in your code
+
+
+# Asynchronous 
+1. Meaning : More than one at  a time
+
+
+
+
+
+
+
