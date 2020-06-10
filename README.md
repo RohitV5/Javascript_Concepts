@@ -49,6 +49,27 @@ All variables in javascript are set to undefined by the engine during execution 
 
 
 
+# Operator Precedence and Associativity
++ is a function called operator function which has a precendence and associativity
+ Which operator function gets called first. 
+Precedence -> Functions are called in order of precedence. ()
+Associativity -> When functions have the same precedence (left to right or right to left)
+
+# Dynamically TYPED
+we dont define wether s its number or string
+
+
+# COERCION
+converting a value from one type to another
+
+# DEFAULT VALUE
+variable1 = variable1 || 'defaultvalue'
+
+
+
+
+
+
 
 
 
