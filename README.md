@@ -66,6 +66,11 @@ converting a value from one type to another
 variable1 = variable1 || 'defaultvalue'
 
 
+# Object Literal = {}
+Used to create and intialize object.
+Same as new Object() method but shorter.
+
+
 
 
 
