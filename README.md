@@ -70,6 +70,11 @@ variable1 = variable1 || 'defaultvalue'
 Used to create and intialize object.
 Same as new Object() method but shorter.
 
+# Namescpace - A container for keeping functions and variables
+Using  var container = {}; to store functions and valariables
+Use: To avoid name collisions
+
+
 
 
 
