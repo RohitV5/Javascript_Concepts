@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id='heading'> Hellow 😎 World</h1>
+
+    <button id='clickMe'> Click Me</button>
+
+    <script >
+        // addEventListener is a function which takes second paramter a callback funtcion
+        // this is asynchronous operation as it happens when the user clicks
+        // watch the call stack. a will be available in global scope, b will be available in function scope
+        //
+        var aa = 10;
+        document.getElementById("clickMe").addEventListener("click", function xyz(){
+            var a = 10;
+            const b = 20;
+            let c = 30;
+            debugger
+            console.log("Button clicked", aa, a , b ,c);
+        })
+
+
+
+
+        //we can wrap this all code inside a function and create a closure for data hiding 
+        function attachEventListener(){
+            let count = 0;
+            document.getElementById("clickMe").addEventListener("click", function xyz(){
+            debugger
+            console.log("Button clicked", count++);
+            })
+        }
+
+        //executing the function
+        attachEventListener();
+
+        
+    </script>
+</body>
+</html>
